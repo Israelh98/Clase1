@@ -27,7 +27,7 @@ h1{color: white ; font-family: sans-serif
     } 
  .plan { 
 
-    background: #fca2a2;
+    background: #000000;
     text-align: center;
     padding: 16px;
     margin: 23px;
@@ -38,7 +38,7 @@ h1{color: white ; font-family: sans-serif
 
  .plan--highlighted {
 
-background: rgb(247, 109, 109);
+background: rgb(248, 72, 72);
 color: white;
 box-shadow:2px 2px 2px 2px
 rgb(0, 0, 0.5);
@@ -81,9 +81,8 @@ padding: 0px;
 }
 
 .plan__feature { 
-
- margin: 8px 0
- ;
+    color: white;
+    margin: 8px 0;
 }
 .button { 
 
@@ -103,6 +102,53 @@ background: white;
 color: black
 ;
 }
+.button:focus {
+    outline: none;
+}
+
+#key-features {
+
+    background: rgb(0, 0, 0);
+    margin-top: 80px ;
+    padding: 16px ;
+ }
+ #key-features .section-title {
+
+    color: white;
+    margin: 32px;
+  }
+  .key-feature__list {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+.key-feature {
+
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+
+ }
+ .key-feature__image {
+
+background: rgb(248, 170, 170);
+width: 128px;
+height: 128px;
+border: 2px solid rgb(39, 39, 39);
+border-radius: 50%;
+margin: auto;
+
+ }
+
+ .key-feature__description {
+
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+  }
 
 
 
