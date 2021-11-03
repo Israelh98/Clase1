@@ -27,7 +27,7 @@ h1{color: white ; font-family: sans-serif
     } 
  .plan { 
 
-    background: #fab7b7;
+    background: #fca2a2;
     text-align: center;
     padding: 16px;
     margin: 23px;
@@ -35,6 +35,26 @@ h1{color: white ; font-family: sans-serif
     width: 30%;
     vertical-align: middle;
  } 
+
+ .plan--highlighted {
+
+background: rgb(247, 109, 109);
+color: white;
+box-shadow:2px 2px 2px 2px
+rgb(0, 0, 0.5);
+
+
+} 
+
+.plan__annotation {
+background: white;
+color: tomato;
+padding: 8px;
+box-shadow:2px 2px 2px 2px
+rgb(0, 0, 0.5);
+border-radius: 8px; 
+
+ }
 
 
  #product-overview h1 {
